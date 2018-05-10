@@ -4,7 +4,7 @@
 #
 Name     : cached-property
 Version  : 1.3.0
-Release  : 4
+Release  : 5
 URL      : https://github.com/pydanny/cached-property/archive/1.3.0.tar.gz
 Source0  : https://github.com/pydanny/cached-property/archive/1.3.0.tar.gz
 Summary  : No detailed summary available

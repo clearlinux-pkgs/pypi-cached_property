@@ -4,7 +4,7 @@
 #
 Name     : cached-property
 Version  : 1.3.0
-Release  : 6
+Release  : 7
 URL      : https://github.com/pydanny/cached-property/archive/1.3.0.tar.gz
 Source0  : https://github.com/pydanny/cached-property/archive/1.3.0.tar.gz
 Summary  : No detailed summary available
@@ -12,10 +12,6 @@ Group    : Development/Tools
 License  : BSD-3-Clause
 Requires: cached-property-python3
 Requires: cached-property-python
-Requires: coverage
-Requires: pytest
-Requires: pytest-cov
-Requires: wheel
 BuildRequires : pbr
 BuildRequires : pip
 BuildRequires : pluggy
@@ -60,7 +56,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1523050115
+export SOURCE_DATE_EPOCH=1528566122
 python3 setup.py build -b py3
 
 %install

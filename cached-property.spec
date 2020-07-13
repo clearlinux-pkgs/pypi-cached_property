@@ -4,7 +4,7 @@
 #
 Name     : cached-property
 Version  : 1.5.1
-Release  : 24
+Release  : 25
 URL      : https://files.pythonhosted.org/packages/57/8e/0698e10350a57d46b3bcfe8eff1d4181642fd1724073336079cb13c5cf7f/cached-property-1.5.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/57/8e/0698e10350a57d46b3bcfe8eff1d4181642fd1724073336079cb13c5cf7f/cached-property-1.5.1.tar.gz
 Summary  : A decorator for caching properties in classes.

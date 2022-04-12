@@ -4,7 +4,7 @@
 #
 Name     : pypi-cached_property
 Version  : 1.5.2
-Release  : 43
+Release  : 44
 URL      : https://files.pythonhosted.org/packages/61/2c/d21c1c23c2895c091fa7a91a54b6872098fea913526932d21902088a7c41/cached-property-1.5.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/61/2c/d21c1c23c2895c091fa7a91a54b6872098fea913526932d21902088a7c41/cached-property-1.5.2.tar.gz
 Summary  : A decorator for caching properties in classes.
@@ -14,7 +14,6 @@ Requires: pypi-cached_property-license = %{version}-%{release}
 Requires: pypi-cached_property-python = %{version}-%{release}
 Requires: pypi-cached_property-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: cached-property
 
 %description
 cached-property
@@ -56,7 +55,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641412107
+export SOURCE_DATE_EPOCH=1649724051
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "

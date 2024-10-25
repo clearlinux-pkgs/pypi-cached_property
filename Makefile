@@ -1,5 +1,5 @@
 PKG_NAME := pypi-cached_property
-URL = https://files.pythonhosted.org/packages/61/2c/d21c1c23c2895c091fa7a91a54b6872098fea913526932d21902088a7c41/cached-property-1.5.2.tar.gz
+URL = https://files.pythonhosted.org/packages/d0/f1/02732460c4af343e14c8e81e9cb9f5bf322349326f2944f8cff480d52596/cached_property-2.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

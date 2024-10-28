@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-cached_property
-Version  : 2.0
-Release  : 60
-URL      : https://files.pythonhosted.org/packages/d0/f1/02732460c4af343e14c8e81e9cb9f5bf322349326f2944f8cff480d52596/cached_property-2.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/d0/f1/02732460c4af343e14c8e81e9cb9f5bf322349326f2944f8cff480d52596/cached_property-2.0.tar.gz
+Version  : 2.0.1
+Release  : 61
+URL      : https://files.pythonhosted.org/packages/76/4b/3d870836119dbe9a5e3c9a61af8cc1a8b69d75aea564572e385882d5aefb/cached_property-2.0.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/76/4b/3d870836119dbe9a5e3c9a61af8cc1a8b69d75aea564572e385882d5aefb/cached_property-2.0.1.tar.gz
 Summary  : A decorator for caching properties in classes.
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -55,10 +55,10 @@ python3 components for the pypi-cached_property package.
 
 
 %prep
-%setup -q -n cached_property-2.0
-cd %{_builddir}/cached_property-2.0
+%setup -q -n cached_property-2.0.1
+cd %{_builddir}/cached_property-2.0.1
 pushd ..
-cp -a cached_property-2.0 buildavx2
+cp -a cached_property-2.0.1 buildavx2
 popd
 
 %build
@@ -66,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1729866128
+export SOURCE_DATE_EPOCH=1730144561
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "

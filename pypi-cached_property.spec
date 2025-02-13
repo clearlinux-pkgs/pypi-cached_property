@@ -7,7 +7,7 @@
 #
 Name     : pypi-cached_property
 Version  : 2.0.1
-Release  : 61
+Release  : 62
 URL      : https://files.pythonhosted.org/packages/76/4b/3d870836119dbe9a5e3c9a61af8cc1a8b69d75aea564572e385882d5aefb/cached_property-2.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/76/4b/3d870836119dbe9a5e3c9a61af8cc1a8b69d75aea564572e385882d5aefb/cached_property-2.0.1.tar.gz
 Summary  : A decorator for caching properties in classes.
